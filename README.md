@@ -1,6 +1,6 @@
-# NodeMCU Bluetooth Project
+# NodeMCU Wifi Project
 
-This project demonstrates how to use NodeMCU with Bluetooth capabilities. The project includes code examples and instructions for setting up and using Bluetooth with NodeMCU.
+This project demonstrates how to use NodeMCU with Wifi capabilities. The project includes code examples and instructions for setting up and using Wifi with NodeMCU.
 
 ## Table of Contents
 
@@ -13,12 +13,12 @@ This project demonstrates how to use NodeMCU with Bluetooth capabilities. The pr
 
 ## Introduction
 
-This project aims to provide a simple and effective way to integrate Bluetooth functionality with NodeMCU. It includes sample code and detailed instructions to help you get started quickly.
+This project aims to provide a simple and effective way to integrate Wifi functionality with NodeMCU. It includes sample code and detailed instructions to help you get started quickly.
 
 ## Requirements
 
 - NodeMCU board
-- Bluetooth module (e.g., HC-05, HC-06)
+- Wifi module (e.g., HC-05, HC-06)
 - Arduino IDE
 - USB cable
 - Jumper wires
@@ -27,7 +27,7 @@ This project aims to provide a simple and effective way to integrate Bluetooth f
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/nodeMCU-bluetooth.git
+    git clone https://github.com/yourusername/nodeMCU-Wifi.git
     ```
 2. **Open the project in Arduino IDE:**
     - Open Arduino IDE.
@@ -38,17 +38,17 @@ This project aims to provide a simple and effective way to integrate Bluetooth f
 
 ## Usage
 
-1. **Connect the Bluetooth module to NodeMCU:**
-    - Connect the VCC and GND pins of the Bluetooth module to the 3.3V and GND pins of NodeMCU.
-    - Connect the TX and RX pins of the Bluetooth module to the RX and TX pins of NodeMCU.
+1. **Connect the Wifi module to NodeMCU:**
+    - Connect the VCC and GND pins of the Wifi module to the 3.3V and GND pins of NodeMCU.
+    - Connect the TX and RX pins of the Wifi module to the RX and TX pins of NodeMCU.
 
 2. **Upload the code:**
     - Connect NodeMCU to your computer using a USB cable.
     - Select the correct board and port in Arduino IDE.
     - Click on the upload button to upload the code to NodeMCU.
 
-3. **Pair the Bluetooth module:**
-    - Use a Bluetooth-enabled device to search for and pair with the Bluetooth module.
+3. **Pair the Wifi module:**
+    - Use a Wifi-enabled device to search for and pair with the Wifi module.
 
 4. **Run the project:**
     - Open a serial monitor in Arduino IDE to see the communication between NodeMCU and the paired device.
