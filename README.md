@@ -12,7 +12,7 @@ A simple wifi server with Node MCU
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/nodeMCU-Wifi.git
+    git clone https://github.com/nanda-gopal-sb/wifi-server/
     ```
 2. **Open VSCode:**
     - Open the platform IO interface from the menu. 
